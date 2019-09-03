@@ -23,6 +23,7 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         toolbar = findViewById(R.id.toolbar2);
+        setSupportActionBar(toolbar);
         toolbar.setTitle("标题");
         // 使用主题修改Menu选项的问题
         toolbar.setPopupTheme(R.style.popup_theme);
